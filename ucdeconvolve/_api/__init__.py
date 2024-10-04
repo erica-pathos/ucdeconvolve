@@ -3,4 +3,4 @@
 # # Contact: daniel.charytonowicz@icahn.mssm.edu
 # ###################################################################################################
 
-from ._api import authenticate, register, activate
+from ._api import authenticate, register, activate, list_run_states, kill_run, remove_run
